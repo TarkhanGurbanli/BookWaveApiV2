@@ -1,0 +1,12 @@
+﻿using BookWave.Entity.Base;
+
+namespace BookWave.Entity.Entities;
+public class Blog : BaseEntity
+{
+    public string Title { get; set; } = default!;
+    public string Content { get; set; } = default!;
+    public int AppUserId { get; set; }
+    public AppUser AppUser { get; set; } = default!;
+    public List<int> ImageIds { get; set; } = default!;
+    public List<Comment>? Comments { get; set; }
+}
