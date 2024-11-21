@@ -1,4 +1,5 @@
-﻿using BookWave.Service.Result;
+﻿using BookWave.Dto.AuthDtos;
+using BookWave.Service.Result;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -28,5 +29,19 @@ namespace BookWave.WebAPI.Controllers
                 _ => new ObjectResult(result) { StatusCode = result.Status.GetHashCode() }
             };
         }
+
+        [NonAction]
+        public IActionResult CreateActionResult(RegistrationResponse result)
+            => new ObjectResult(result)
+            { StatusCode = result.Flag 
+                ? (int)HttpStatusCode.OK 
+                : (int)HttpStatusCode.BadRequest };
+
+        [NonAction]
+        public IActionResult CreateActionResult(LoginResponse result)
+            => new ObjectResult(result)
+            { StatusCode = result.Flag 
+                ? (int)HttpStatusCode.OK 
+                : (int)HttpStatusCode.Unauthorized };
     }
 }
