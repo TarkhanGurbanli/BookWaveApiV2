@@ -1,4 +1,5 @@
 ﻿using BookWave.Entity.Entities;
+using BookWave.Entity.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -23,16 +24,13 @@ public class AppUserConfiguration : IEntityTypeConfiguration<AppUser>
           .HasMaxLength(100);
 
         builder.Property(u => u.Password)
-            .IsRequired()
-            .HasMaxLength(200);
-
-        builder.Property(u => u.PasswordSalt)
-           .IsRequired()
-           .HasMaxLength(200);
+            .IsRequired();
 
         builder.Property(u => u.Role)
-           .IsRequired()
-           .HasConversion<int>();
+       .HasConversion(
+           r => r.ToString(),
+           r => (Role)Enum.Parse(typeof(Role), r)
+       );
 
         // One-to-One relationship with Image
         builder.HasOne(u => u.Image)

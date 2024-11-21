@@ -20,7 +20,7 @@ public static class RepositoryExtensions
 
             options.UseSqlServer(connectionString!.SqlServer, sqlServerOptionsAction =>
             {
-                sqlServerOptionsAction.MigrationsAssembly(typeof(RepositoryAssembly).Assembly.FullName);
+                sqlServerOptionsAction.MigrationsAssembly(typeof(RepositoryExtensions).Assembly.FullName);
             });
         });
 
@@ -31,6 +31,7 @@ public static class RepositoryExtensions
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         //Repositories
+        services.AddScoped<IAppUserRepository, AppUserRepository>();
         services.AddScoped<IAuthorRepository, AuthorRepository>();
         services.AddScoped<IBlogRepository, BlogRepository>();
         services.AddScoped<IBookRepository, BookRepository>();

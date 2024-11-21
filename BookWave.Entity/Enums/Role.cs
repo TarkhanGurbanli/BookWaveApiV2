@@ -1,6 +1,6 @@
 ﻿namespace BookWave.Entity.Enums;
 public enum Role
 {
-    USER,
-    ADMIN
+    Admin = 1,
+    User = 2,
 }
