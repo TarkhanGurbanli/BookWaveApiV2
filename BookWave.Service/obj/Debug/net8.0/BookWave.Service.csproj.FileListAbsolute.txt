@@ -1,0 +1,17 @@
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Service.deps.json
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Service.dll
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Service.pdb
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Entity.dll
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Repository.dll
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Repository.pdb
+D:\bookwave\BookWave\BookWave.Service\bin\Debug\net8.0\BookWave.Entity.pdb
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.csproj.AssemblyReference.cache
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.AssemblyInfoInputs.cache
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.AssemblyInfo.cs
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.csproj.CoreCompileInputs.cache
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.4717BC2F.Up2Date
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.dll
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\refint\BookWave.Service.dll
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\BookWave.Service.pdb
+D:\bookwave\BookWave\BookWave.Service\obj\Debug\net8.0\ref\BookWave.Service.dll

@@ -1,0 +1,17 @@
+D:\bookwave\BookWave\BookWave.Repository\bin\Debug\net8.0\BookWave.Repository.deps.json
+D:\bookwave\BookWave\BookWave.Repository\bin\Debug\net8.0\BookWave.Repository.runtimeconfig.json
+D:\bookwave\BookWave\BookWave.Repository\bin\Debug\net8.0\BookWave.Repository.dll
+D:\bookwave\BookWave\BookWave.Repository\bin\Debug\net8.0\BookWave.Repository.pdb
+D:\bookwave\BookWave\BookWave.Repository\bin\Debug\net8.0\BookWave.Entity.dll
+D:\bookwave\BookWave\BookWave.Repository\bin\Debug\net8.0\BookWave.Entity.pdb
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.csproj.AssemblyReference.cache
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.AssemblyInfoInputs.cache
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.AssemblyInfo.cs
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.csproj.CoreCompileInputs.cache
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.A5F8A179.Up2Date
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.dll
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\refint\BookWave.Repository.dll
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.pdb
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.genruntimeconfig.cache
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\ref\BookWave.Repository.dll

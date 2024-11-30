@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BookWave.WebApi.props" />
+</Project>

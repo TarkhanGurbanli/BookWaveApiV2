@@ -1,0 +1,11 @@
+D:\bookwave\BookWave\BookWave.Entity\bin\Debug\net8.0\BookWave.Entity.deps.json
+D:\bookwave\BookWave\BookWave.Entity\bin\Debug\net8.0\BookWave.Entity.dll
+D:\bookwave\BookWave\BookWave.Entity\bin\Debug\net8.0\BookWave.Entity.pdb
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.AssemblyInfoInputs.cache
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.AssemblyInfo.cs
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.csproj.CoreCompileInputs.cache
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.dll
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\refint\BookWave.Entity.dll
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.pdb
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\ref\BookWave.Entity.dll

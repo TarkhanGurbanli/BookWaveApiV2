@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VIk/KMWchQteukHSVRVdGJ2XQ1AiZrcREqp8XAh8bwQ=",
+  "Source": "BookWave.WebApi",
+  "BasePath": "_content/BookWave.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
