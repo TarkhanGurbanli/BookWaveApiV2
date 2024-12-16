@@ -15,3 +15,4 @@ D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\refint\BookWave.Reposi
 D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.pdb
 D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.genruntimeconfig.cache
 D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\ref\BookWave.Repository.dll
+D:\bookwave\BookWave\BookWave.Repository\obj\Debug\net8.0\BookWave.Repository.sourcelink.json

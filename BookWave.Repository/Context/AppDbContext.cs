@@ -9,10 +9,10 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Author> Author { get; set; } = default!;
     public DbSet<Blog> Blogs { get; set; } = default!;
     public DbSet<Book> Books { get; set; } = default!;
-    public DbSet<BookGenre> BookGenres { get; set; } = default!;
+    public DbSet<BookCategory> BookGenres { get; set; } = default!;
     public DbSet<Comment> Comments { get; set; } = default!;
     public DbSet<Favorite> Favorites { get; set; } = default!;
-    public DbSet<Genre> Genres { get; set; } = default!;
+    public DbSet<Category> Genres { get; set; } = default!;
     public DbSet<PhotoFile> PhotoFiles { get; set; } = default!;
     public DbSet<Publisher> Publishers { get; set; } = default!;
     public DbSet<Quote> Quotes { get; set; } = default!;

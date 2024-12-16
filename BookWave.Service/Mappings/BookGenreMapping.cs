@@ -7,8 +7,8 @@ public class BookGenreMapping : Profile
 {
     public BookGenreMapping()
     {
-        CreateMap<BookGenre, BookGenreDto>().ReverseMap();
-        CreateMap<BookGenre, CreateBookGenreDto>().ReverseMap();
-        CreateMap<BookGenre, UpdateBookGenreDto>().ReverseMap();
+        CreateMap<BookCategory, BookGenreDto>().ReverseMap();
+        CreateMap<BookCategory, CreateBookGenreDto>().ReverseMap();
+        CreateMap<BookCategory, UpdateBookGenreDto>().ReverseMap();
     }
 }

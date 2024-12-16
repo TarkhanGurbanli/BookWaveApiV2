@@ -13,7 +13,7 @@ public class BookGenreService(IBookGenreRepository repository, IUnitOfWork unitO
 {
     public async Task<ServiceResult> CreateAsync(CreateBookGenreDto request)
     {
-        var valueAsDto = mapper.Map<BookGenre>(request);
+        var valueAsDto = mapper.Map<BookCategory>(request);
         await repository.AddAsync(valueAsDto);
         await unitOfWork.SaveChangesAsync();
         return ServiceResult.Success(HttpStatusCode.Created);
@@ -67,7 +67,7 @@ public class BookGenreService(IBookGenreRepository repository, IUnitOfWork unitO
         if (value is null)
             return ServiceResult.Fail("Book Genre not found", HttpStatusCode.NotFound);
 
-        var valueAsDto = mapper.Map<BookGenre>(request);
+        var valueAsDto = mapper.Map<BookCategory>(request);
         valueAsDto.Id = id;
         repository.Update(valueAsDto);
         await unitOfWork.SaveChangesAsync();
