@@ -116,7 +116,6 @@ D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.bu
 D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BookWave.WebApi.props
 D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BookWave.WebApi.props
 D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
-D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\BookWave.99552C2A.Up2Date
 D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\BookWave.WebApi.dll
 D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\refint\BookWave.WebApi.dll
@@ -129,3 +128,8 @@ D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authe
 D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\Npgsql.dll
 D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\AWSSDK.Core.dll
+D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\AWSSDK.S3.dll
+D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\BookWave.WebApi.sourcelink.json
+D:\bookwave\BookWave\BookWave.WebApi\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll
+D:\bookwave\BookWave\BookWave.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

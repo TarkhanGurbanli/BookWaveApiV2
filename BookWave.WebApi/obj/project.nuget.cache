@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "yJMsDeyDvTM=",
+  "dgSpecHash": "JkOyk2yPV5Y=",
   "success": true,
   "projectFilePath": "D:\\bookwave\\BookWave\\BookWave.WebApi\\BookWave.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tarkh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\tarkh\\.nuget\\packages\\awssdk.core\\3.7.400.58\\awssdk.core.3.7.400.58.nupkg.sha512",
+    "C:\\Users\\tarkh\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.301\\awssdk.extensions.netcore.setup.3.7.301.nupkg.sha512",
+    "C:\\Users\\tarkh\\.nuget\\packages\\awssdk.s3\\3.7.409\\awssdk.s3.3.7.409.nupkg.sha512",
     "C:\\Users\\tarkh\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\tarkh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tarkh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.11\\microsoft.aspnetcore.authentication.jwtbearer.8.0.11.nupkg.sha512",
+    "C:\\Users\\tarkh\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\tarkh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\tarkh\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\tarkh\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

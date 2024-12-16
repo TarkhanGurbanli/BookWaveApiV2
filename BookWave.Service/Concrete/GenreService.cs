@@ -13,7 +13,7 @@ public class GenreService(IGenreRepository repository, IUnitOfWork unitOfWork, I
 {
     public async Task<ServiceResult> CreateAsync(CreateGenreDto request)
     {
-        var valueAsDto = mapper.Map<Genre>(request);
+        var valueAsDto = mapper.Map<Category>(request);
         await repository.AddAsync(valueAsDto);
         await unitOfWork.SaveChangesAsync();
         return ServiceResult.Success(HttpStatusCode.Created);
@@ -67,7 +67,7 @@ public class GenreService(IGenreRepository repository, IUnitOfWork unitOfWork, I
         if (value is null)
             return ServiceResult.Fail("Genre not found", HttpStatusCode.NotFound);
 
-        var valueAsDto = mapper.Map<Genre>(request);
+        var valueAsDto = mapper.Map<Category>(request);
         valueAsDto.Id = id;
         repository.Update(valueAsDto);
         await unitOfWork.SaveChangesAsync();

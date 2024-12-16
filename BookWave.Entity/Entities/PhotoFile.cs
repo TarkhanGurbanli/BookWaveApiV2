@@ -4,9 +4,9 @@ using BookWave.Entity.Enums;
 namespace BookWave.Entity.Entities;
 public class PhotoFile : BaseEntity
 {
-    public string ImageName { get; set; } = default!;
-    public string ImageUrl { get; set; } = default!;
-    public string Message { get; set; } = default!;
-    public int Status { get; set; }
+    public string Base64Content { get; init; } = string.Empty; 
+    public string FileName { get; init; } = string.Empty;
+    public string? ContentType { get; init; }
     public ImageType ImageType { get; set; }
+
 }

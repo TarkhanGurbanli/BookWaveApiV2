@@ -3,12 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace BookWave.Repository.Configuration;
-public class GenreConfiguration : IEntityTypeConfiguration<Genre>
+public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 {
-    public void Configure(EntityTypeBuilder<Genre> builder)
+    public void Configure(EntityTypeBuilder<Category> builder)
     {
         // Table configuration
-        builder.ToTable("Genres");
+        builder.ToTable("Categories");
 
         // Primary Key configuration
         builder.HasKey(x => x.Id);
@@ -19,8 +19,8 @@ public class GenreConfiguration : IEntityTypeConfiguration<Genre>
             .HasMaxLength(50);
 
         // Many-to-Many relationship with Books through BookGenre
-        builder.HasMany(g => g.BookGenres)
-            .WithOne(bg => bg.Genre)
-            .HasForeignKey(bg => bg.GenreId);
+        builder.HasMany(g => g.BookCategories)
+            .WithOne(bg => bg.Category)
+            .HasForeignKey(bg => bg.CategoryId);
     }
 }

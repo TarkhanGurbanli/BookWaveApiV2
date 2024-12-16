@@ -64,7 +64,7 @@ public class BookService(IBookRepository repository, IUnitOfWork unitOfWork, IMa
             Rating: book.Rating,
             AuthorName: book.Author.Name,
             PublisherName: book.Publisher.Name,
-            BookGenreNames: book.BookGenres.Select(bg => bg.Genre.Name).ToList(),
+            BookGenreNames: book.BookCategories.Select(bg => bg.Category.Name).ToList(),
             Comments: book.Comments.Select(c => new CommentDto(
                 Id: c.Id,
                 Text: c.Text,

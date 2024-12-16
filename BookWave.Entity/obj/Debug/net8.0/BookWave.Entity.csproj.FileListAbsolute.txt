@@ -9,3 +9,5 @@ D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.dll
 D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\refint\BookWave.Entity.dll
 D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.pdb
 D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\ref\BookWave.Entity.dll
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.sourcelink.json
+D:\bookwave\BookWave\BookWave.Entity\obj\Debug\net8.0\BookWave.Entity.csproj.AssemblyReference.cache

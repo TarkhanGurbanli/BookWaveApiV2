@@ -43,7 +43,7 @@ public class BookConfiguration : IEntityTypeConfiguration<Book>
             .OnDelete(DeleteBehavior.Cascade);
 
         // Many-to-Many relationship with Genre through BookGenre (join table)
-        builder.HasMany(b => b.BookGenres)
+        builder.HasMany(b => b.BookCategories)
             .WithOne(bg => bg.Book)
             .HasForeignKey(bg => bg.BookId)
             .OnDelete(DeleteBehavior.Cascade);

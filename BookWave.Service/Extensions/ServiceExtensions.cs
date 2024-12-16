@@ -1,5 +1,10 @@
-﻿using BookWave.Service.Abstract;
+﻿using Amazon;
+using Amazon.Extensions.NETCore.Setup;
+using Amazon.Runtime;
+using Amazon.S3;
+using BookWave.Service.Abstract;
 using BookWave.Service.Concrete;
+using BookWave.Service.Settings;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -28,6 +33,20 @@ public static class ServiceExtensions
         //    };
         //});
 
+        // AWS S3 Configuration
+        var awsConfig = new AWSServiceSetting();
+        var awsSettingSection = configuration.GetSection("AWSS3Configuration");
+        awsSettingSection.Bind(awsConfig);
+
+        var awsOptions = new AWSOptions
+        {
+            Credentials = new BasicAWSCredentials(awsConfig.AccessKey, awsConfig.SecretKey),
+            Region = RegionEndpoint.GetBySystemName(awsConfig.Region)
+        };
+        
+        services.AddAWSService<IAmazonS3>(awsOptions);
+        services.Configure<AWSServiceSetting>(awsSettingSection);
+
 
         // AutoMapper
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
@@ -40,6 +59,7 @@ public static class ServiceExtensions
         services.AddScoped<IBookService, BookService>();
         services.AddScoped<IBookGenreService, BookGenreService>();
         services.AddScoped<IQuoteService, QuoteService>();
+        services.AddScoped<IBlogService, BlogService>();
 
         return services;
     }
